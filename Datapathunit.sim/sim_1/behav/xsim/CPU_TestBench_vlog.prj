@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Datapathunit.srcs/sources_1/new/CPU.v" \
+"../../../../../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/DataMemory.v" \
+"../../../../Datapathunit.srcs/sources_1/new/Datapath.v" \
+"../../../../Datapathunit.srcs/sources_1/new/aluControl.v" \
+"../../../../../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/alu_16bit.v" \
+"../../../../../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/alu_1bit.v" \
+"../../../../../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/cu.v" \
+"../../../../../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/full_adder.v" \
+"../../../../../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/mux_2to1.v" \
+"../../../../../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/mux_8to1.v" \
+"../../../../Datapathunit.srcs/sim_1/new/CPU_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
