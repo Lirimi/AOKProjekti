@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="44" Path="/opt/Xilinx/Datapathunit/Datapathunit.xpr">
+<Project Version="7" Minor="44" Path="/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="9ccffd1d6e3a423ca4a34151b68e9164"/>
@@ -58,7 +58,7 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/DataMemory.v">
+      <File Path="$PSRCDIR/sources_1/new/DataMemory.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -72,7 +72,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/InstrMemory.v">
+      <File Path="$PSRCDIR/sources_1/new/InstrMemory.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -86,7 +86,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/RegisterFile.v">
+      <File Path="$PSRCDIR/sources_1/new/RegisterFile.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -107,42 +107,42 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/alu_16bit.v">
+      <File Path="$PSRCDIR/sources_1/new/alu_16bit.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/alu_1bit.v">
+      <File Path="$PSRCDIR/sources_1/new/alu_1bit.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/cu.v">
+      <File Path="$PSRCDIR/sources_1/new/cu.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/full_adder.v">
+      <File Path="$PSRCDIR/sources_1/new/full_adder.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/mux_2to1.v">
+      <File Path="$PSRCDIR/sources_1/new/mux_2to1.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/mux_8to1.v">
+      <File Path="$PSRCDIR/sources_1/new/mux_8to1.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -156,13 +156,13 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/instrMem.mem">
+      <File Path="$PSRCDIR/sources_1/new/instrMem.mem">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../home/lirix/Desktop/Arkitekura/Projekti/Kodi/dataMem.mem">
+      <File Path="$PSRCDIR/sources_1/new/dataMem.mem">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
