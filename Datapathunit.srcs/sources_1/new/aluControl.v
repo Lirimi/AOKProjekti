@@ -20,14 +20,16 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module aluControl(ALUOp, Function, bnegate, s0, s1, s2);  
+module aluControl(ALUOp, Function, bnegate, op);  
 
  
- reg[3:0] ALU_Control;  
+ reg[3:0] ALU_Control;
+   
  input ALUOp;  
  input [4:0] Function;  
  wire [5:0] ALUControlIn;
- output reg bnegate, s0, s1, s2;
+ output reg bnegate;
+ output reg [2:0] op; 
  
  assign ALUControlIn = {ALUOp,Function};
  
@@ -46,5 +48,5 @@ module aluControl(ALUOp, Function, bnegate, s0, s1, s2);
   endcase  
   
    
-always @(ALU_Control)  {bnegate, s0, s1, s2} = ALU_Control;
+always @(ALU_Control)  {bnegate, op} = ALU_Control;
  endmodule  

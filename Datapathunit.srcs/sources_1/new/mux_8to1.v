@@ -13,13 +13,14 @@ module mux_8to1 (s0, s1, s2, d0, d1, d2, d3, d4, d6, d7, d8, z1);
 
 
 
-input s0, s1, s2, d0, d1, d2, d3, d4, d6, d7, d8;
+input s0, s1, s2, d0, d1, d2, d3, d4, d7, d8;
+input d6;
 output z1;
 
 
 
 
-assign z1 = s0 ? (s1 ? (s2 ? d8 : d7) : (s2 ? d4 : d3))  :  (s1 ? (s2 ? d2 : d1) : (s2 ? d6: d0));
+assign z1 = s0 ? (s1 ? (s2 ? d8 : d7) : (s2 ? d4 : d3))  :  (s1 ? (s2 ? d2 : d1) : (s2 ? d6 : d0));
 
 //assign z1 = s1 ? (s0 ? d3 : d2) : (s0 ? d1 : d0);
 

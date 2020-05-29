@@ -1,0 +1,10 @@
+Breakpoint File Version 1.0
+9 true /opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/LogicalShifts.v
+10 true /opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/LogicalShifts.v
+11 true /opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/LogicalShifts.v
+12 true /opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/LogicalShifts.v
+13 true /opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/LogicalShifts.v
+14 true /opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/LogicalShifts.v
+15 true /opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/LogicalShifts.v
+16 true /opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/LogicalShifts.v
+17 true /opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/LogicalShifts.v

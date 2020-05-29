@@ -1,0 +1,61 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2458] undeclared symbol ALUSrc, assumed default net type wire [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/CPU.v:30]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'AdresaNeHyrje' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/DataMemory.v:25]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'WriteData' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/DataMemory.v:26]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'ReadData' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/DataMemory.v:27]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'MemWrite' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/DataMemory.v:28]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'MemRead' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/DataMemory.v:29]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'clk' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/DataMemory.v:30]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'MemWrite' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/Datapath.v:35]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'pcFill' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/Datapath.v:46]
+INFO: [VRFC 10-2458] undeclared symbol z, assumed default net type wire [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/Datapath.v:82]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/InstrMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstrMemory
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'clk' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/InstrMemory.v:24]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'Hyrja' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/InstrMemory.v:25]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'Dalja' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/InstrMemory.v:27]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/LogicalShifts.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SLL
+INFO: [VRFC 10-311] analyzing module SRL
+INFO: [VRFC 10-2263] Analyzing Verilog file "/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'RS' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/RegisterFile.v:29]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'RT' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/RegisterFile.v:30]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'RD' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/RegisterFile.v:31]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'WD' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/RegisterFile.v:33]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'we' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/RegisterFile.v:35]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'clk' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/RegisterFile.v:37]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'RD1' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/RegisterFile.v:39]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'RD2' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/RegisterFile.v:40]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/alu_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_16bit
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'a' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/alu_16bit.v:17]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'cin' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/alu_16bit.v:18]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'op' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/alu_16bit.v:19]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'result' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/alu_16bit.v:21]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/alu_1bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_1bit
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'a' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/alu_1bit.v:16]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'op' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/alu_1bit.v:17]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'result' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/alu_1bit.v:19]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'cout' is not allowed [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/alu_1bit.v:20]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/cu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2458] undeclared symbol net1, assumed default net type wire [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/full_adder.v:12]
+INFO: [VRFC 10-2458] undeclared symbol net2, assumed default net type wire [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/full_adder.v:13]
+INFO: [VRFC 10-2458] undeclared symbol net3, assumed default net type wire [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/full_adder.v:16]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/mux_2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/mux_8to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_8to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sim_1/new/CPU_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_TestBench

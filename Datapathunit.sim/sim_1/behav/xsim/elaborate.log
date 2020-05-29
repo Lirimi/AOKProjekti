@@ -4,24 +4,28 @@ Running: /opt/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/xelab -wto 9ccffd1d6e3a
 Using 8 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'opcode' [/opt/Xilinx/Datapathunit/Datapathunit.srcs/sources_1/new/CPU.v:30]
-WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'd0' [/opt/Xilinx/Datapathunit/Datapathunit.srcs/sources_1/new/Datapath.v:79]
-WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 16 for port 'result' [/opt/Xilinx/Datapathunit/Datapathunit.srcs/sources_1/new/Datapath.v:88]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 16 for port 'pcFill' [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/CPU.v:32]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'd0' [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/Datapath.v:82]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 1 for port 'clk' [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/Datapath.v:83]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 16 for port 'result' [/opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.srcs/sources_1/new/Datapath.v:91]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.cu
+Compiling module xil_defaultlib.InstrMemory
 Compiling module xil_defaultlib.mux_2to1
+Compiling module xil_defaultlib.RegisterFile
 Compiling module xil_defaultlib.aluControl
 Compiling module xil_defaultlib.full_adder
 Compiling module xil_defaultlib.mux_8to1
 Compiling module xil_defaultlib.alu_1bit
+Compiling module xil_defaultlib.SLL
+Compiling module xil_defaultlib.SRL
 Compiling module xil_defaultlib.alu_16bit
 Compiling module xil_defaultlib.DataMemory
 Compiling module xil_defaultlib.Datapath
-Compiling module xil_defaultlib.cu
 Compiling module xil_defaultlib.CPU
 Compiling module xil_defaultlib.CPU_TestBench
 Compiling module xil_defaultlib.glbl
-ERROR: [XSIM 43-3409] Failed to compile generated C file xsim.dir/CPU_TestBench_behav/obj/xsim_1.c.
-ERROR: [XSIM 43-3915] Encountered a fatal error. Cannot continue. Exiting... 
+Built simulation snapshot CPU_TestBench_behav

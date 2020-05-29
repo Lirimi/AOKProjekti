@@ -55,7 +55,7 @@ begin
     assign pc = pcFill;
 end
 
- assign pc2 = pc + 16'd2; 
+assign pc2 = pc + 16'd2; 
 
 InstrMemory DPIM(clk, pcFill, instruksioni);
 
@@ -86,7 +86,7 @@ RegisterFile RF(RS, RT, RD, WD, RFwe, RD1, RD2);
 assign imm_long = {{8{immediate[7]}}, immediate[7:0]};
 assign alu2 = s ? imm_long : RD2;
 
-aluControl ALUControl(s, funct, bnegate, op[0], op[1], op[2]);
+aluControl ALUControl(s, funct, bnegate, op);
 
 alu_16bit aluRF( RD1, alu2,bnegate,ainvert,bnegate, op, result,cout);
 DataMemory DPDM(AdresaNeHyrje, WD, MemWrite, MemRead, clk, ReadData );

@@ -18,26 +18,31 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
+module CPU_TestBench;
 
+   reg clk;
+  
+    //reg a, b, cin,ainvert, bnegate;
 
-module CPU_TestBench(
-
-    );
-    
-    
-    reg clk;
-    
+//wire result;
+//wire cout;
     initial
     begin
-    #0 clk = 0;
+    #0 clk = 1;
+    #5 clk = 1; 
     #5 clk = 1;
     #5 clk = 0;
     #5 clk = 1;
     #5 clk = 0;
     #5 clk = 1;
-    #5 clk = 1;
     #5 clk = 0;
-    #5 clk = 1;
+   
     end
     CPU cpu_testbench(clk);
+    
+ 
+    
 endmodule
+
+
+

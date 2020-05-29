@@ -22,9 +22,9 @@ wire[15:0] result;
 wire[15:0] c;
 wire zero, zero_ose, overflow;
 
-wire[15:0] net8, net9, net1, net2;
+wire[15:0] net8, net9, net1, net2, net3, net4, net5, net6;
 assign cout = c[15];
-assign less=0;
+
 
 
 alu_1bit alu0(a[0], b[0], cin, ainvert, bnegate, op, result[0], c[0]);
@@ -44,8 +44,10 @@ alu_1bit alu13(a[13], b[13], c[12], ainvert, bnegate, op, result[13], c[13]);
 alu_1bit alu14(a[14], b[14], c[13], ainvert, bnegate, op, result[14], c[14]);
 alu_1bit alu15(a[15], b[15], c[14], ainvert, bnegate, op, result[15], c[15]);
 
-SLL sll(net8, net1, net2);        // net8 = sll
-SRL srl(net9, net1, net2);        // net9 = srl
+SLL sll(net8, net2);        // net8 = sll
+SRL srl(net9, net2);        // net9 = srl
+
+//assign net8 = {b[14:0], 1'b0};     //sll
 
 
 
