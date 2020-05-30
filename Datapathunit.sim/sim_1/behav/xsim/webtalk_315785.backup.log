@@ -2,11 +2,12 @@
 # Webtalk v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Fri May 29 05:50:20 2020
-# Process ID: 343004
+# Start of session at: Fri May 29 02:59:55 2020
+# Process ID: 315785
 # Current directory: /opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.sim/sim_1/behav/xsim
-# Command line: wbtcv -mode batch -source /opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.sim/sim_1/behav/xsim/xsim.dir/ALU_Testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+# Command line: wbtcv -mode batch -source /opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.sim/sim_1/behav/xsim/xsim.dir/ALU_16_Testbench_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: /opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.sim/sim_1/behav/xsim/webtalk.log
 # Journal file: /opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.sim/sim_1/behav/xsim/webtalk.jou
 #-----------------------------------------------------------
-source /opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.sim/sim_1/behav/xsim/xsim.dir/ALU_Testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+source /opt/Xilinx/Datapathunit/AOKProjekti/Datapathunit.sim/sim_1/behav/xsim/xsim.dir/ALU_16_Testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri May 29 02:59:56 2020...

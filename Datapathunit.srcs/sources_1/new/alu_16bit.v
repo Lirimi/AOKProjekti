@@ -46,7 +46,7 @@ alu_1bit alu15(a[15], b[15], c[14], ainvert, bnegate, op, result[15], c[15]);
 
 SLL sll(net8, net2);        // net8 = sll
 SRL srl(net9, net2);        // net9 = srl
-
+MUL mul(net10, result, a, b);
 //assign net8 = {b[14:0], 1'b0};     //sll
 
 

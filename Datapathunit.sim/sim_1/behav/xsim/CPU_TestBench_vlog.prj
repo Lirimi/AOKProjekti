@@ -5,6 +5,7 @@ verilog xil_defaultlib  \
 "../../../../Datapathunit.srcs/sources_1/new/Datapath.v" \
 "../../../../Datapathunit.srcs/sources_1/new/InstrMemory.v" \
 "../../../../Datapathunit.srcs/sources_1/new/LogicalShifts.v" \
+"../../../../Datapathunit.srcs/sources_1/new/MUL.v" \
 "../../../../Datapathunit.srcs/sources_1/new/RegisterFile.v" \
 "../../../../Datapathunit.srcs/sources_1/new/aluControl.v" \
 "../../../../Datapathunit.srcs/sources_1/new/alu_16bit.v" \

@@ -2,3 +2,6 @@ Running: xsim.dir/ALU_16_Testbench_behav/xsimk -simmode gui -wdb ALU_16_Testbenc
 Design successfully loaded
 Design Loading Memory Usage: 33628 KB (Peak: 33628 KB)
 Design Loading CPU Usage: 40 ms
+Simulation completed
+Simulation Memory Usage: 115364 KB (Peak: 172896 KB)
+Simulation CPU Usage: 170 ms
